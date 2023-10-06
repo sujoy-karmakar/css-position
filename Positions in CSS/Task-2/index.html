@@ -1,0 +1,58 @@
+<!-- Task 2:
+Explain thr fifference between Absolute and Relative -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute v/s Relative</title>
+    <style>
+    .container{
+   border: 2px solid red;
+    }
+    .a{
+        background-color: yellow;
+        width:50px;
+        height:50px;
+        border:2px solid black;
+        position:relative;
+        left:100px;
+        /* position relative work with it's perosonal position */
+    }
+    .b{
+        background-color: rgb(0, 255, 17);
+        width:50px;
+        height:50px;
+        border:2px solid black;
+        position: absolute;
+        right: 100px;
+/* position absolute work acroding to it's parent position */
+    }
+    .c{
+        background-color: rgb(0, 174, 255);
+        width:50px;
+        height:50px;
+        border:2px solid black;
+        position: relative;
+        bottom:50px;
+        /* position relative work with it's perosonal position */
+    }
+    </style>
+</head>
+
+<body>
+    <!-- relative -->
+    <!--  relative position work with it's own position, and no one can coverd
+    relative main position -->
+
+   <!-- absolute -->
+   <!-- absolute position work accroding to it's parent position and when we use it and give a position
+   so other elment cover absolute main position. -->
+
+    <div class="container">
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!-- 
+    Task 4:
+    create a simple header that sticks to the top of a webpage upon scrolling.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css sticks and scrolling navigation bar </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+        li{
+    list-style: none
+}
+a{ 
+    text-decoration: none;
+    color:rgb(193, 41, 41);
+}
+
+nav{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content:space-around;
+    background-color: rgb(44, 41, 41);
+    padding:10px;  
+    position:sticky;
+    top:0px
+}
+nav .logo{
+    font-size:30px;
+    color:white;
+   
+   
+}
+nav ul{
+display: flex;
+align-items: center;
+gap:60px;
+margin-left:20%;
+}
+.get-start{
+    border:2px solid rgb(0, 255, 51);
+    padding:10px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+a:hover{
+    color:white;
+}
+.content{
+    margin:15px;
+}
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav >
+            <!-- logo -->
+            <div class="logo">Logo</div>
+            <!-- navigation -->
+        <ul>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms and Condition</a></li>
+        </ul>
+        <div class="get-start"> <a href="#">Get Started</a></div>
+    </nav>
+ <div class="content">
+
+        <h1>Heading 1</h1>
+        <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sed cumque quas, illo numquam est eaque? Consequatur aperiam ut a consequuntur quo consectetur, doloremque corrupti porro animi? Corrupti eos vero nam adipisci libero velit enim fuga atque? Deleniti neque inventore sapiente quam atque magnam sunt quis dignissimos, aut, ea facere corrupti illo placeat obcaecati accusantium. Excepturi facilis, repellat sint vel soluta blanditiis nesciunt consequuntur modi obcaecati aliquam impedit fugit aperiam quasi maxime amet? Hic sequi excepturi maxime iusto, quod nihil asperiores laborum eum nobis eaque totam sed, nemo quasi aperiam fugiat ut veniam enim alias nisi ratione et error quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae omnis, reiciendis maiores reprehenderit odit fuga officia placeat, amet explicabo aliquid officiis labore sequi voluptatibus minima hic dignissimos, incidunt nisi quo quaerat facilis at obcaecati. Perferendis molestias voluptatum iste quas! Sapiente, reiciendis architecto? Ea, fuga, vel molestias voluptatem dignissimos laboriosam minus quam quibusdam quia culpa quo animi voluptates nobis ipsa. Perspiciatis obcaecati vero at, quasi voluptate quam voluptatibus? Quia ratione quasi sunt dolorem commodi dolore, ea unde corporis, quam officia sit officiis aut, explicabo quos ab vitae magnam saepe sint itaque laudantium facilis aliquam neque culpa asperiores. Nulla repellat autem animi tempore nisi labore tenetur 
+    </p>
+    <br>
+            <h2>Heading 2</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, illum aliquam quasi, modi corporis placeat maiores explicabo in voluptatem voluptates corrupti aperiam, soluta animi labore id perferendis officia porro vero perspiciatis eos asperiores. Libero ex sunt optio fugit qui, sit vero! Repellendus, minima odit! Eveniet, et quaerat. Nemo ducimus dolor optio cum a ea fuga dolores nisi iste qui voluptate impedit rem atque itaque, obcaecati eius sed! Voluptates tenetur corporis esse? Molestias cumque earum quo illo, tempora laboriosam blanditiis minus suscipit obcaecati nesciunt, nulla, explicabo necessitatibus facere. Eveniet ipsam culpa facere dolor doloribus. Rerum velit facere neque libero quisquam labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, perspiciatis. Quia magni nemo dolores voluptas cum amet iste nostrum velit. Et perferendis consectetur repellendus cum, architecto, sapiente praesentium eos quia obcaecati odit odio? Iste adipisci similique voluptatem in repellat pariatur praesentium commodi corporis voluptatibus odit vitae iusto, unde ad consequuntur harum eius soluta hic, fugiat nostrum debitis tenetur odio, porro tempora! Qui ea optio animi aspernatur laboriosam ducimus expedita quibusdam et. Doloribus, esse qui libero asperiores debitis molestiae laborum quis dolores iure eligendi tempora sunt nulla a! Accusamus adipisci nisi illum iste esse beatae ratione sit sunt libero culpa veniam accusantium magnam error ipsum illo aut eaque quod dolore dicta, corporis voluptatum sequi deleniti eos tenetur. Numquam optio voluptates sequi dolorem ipsum? Minus perferendis impedit accusamus, alias, corrupti delectus saepe doloribus deserunt iusto ipsa voluptatibus obcaecati earum aspernatur eligendi unde cupiditate non. Quaerat iste dolore commodi ea saepe quia rem doloremque eaque, dolor earum nulla tempore totam pariatur facilis doloribus? Neque, aperiam tempore voluptates deserunt cum vitae ullam aspernatur voluptate incidunt exercitationem reprehenderit error rem in. Neque ullam doloremque perspiciatis facilis eos deleniti quisquam cumque debitis a aspernatur, quia, nam sit ad animi quod sdam? Excepturi itaque rerum maiores voluptates ab laudantium soluta est quia perspiciatis similique illum consequuntur, voluptatibus assumenda corrupti alias voluptatem veritatis.!</p>
+   <br>
+   
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum distinctio exercitationem at aut quisquam laudantium accusamus! Veniam, consectetur aperiam? Rem, odio? Facere tempore dolorem placeat ipsa distinctio velit, ipsum impedit natus itaque fugit deserunt illo numquam accusamus tempora nobis. Cupiditate totam doloribus dolorem, iusto minus earum, qui sequi, sunt quaerat reprehenderit est maxime non. Rem, consectetur sit odio saepe impedit aliquid. Quidem officia cumque iste voluptas dolor labore harum minima, atque, voluptatem non quis dolorem! Sunt iste quia hic iusto exercitationem voluptatem voluptates necessitatibus? Aspernatur delectus officiis pariatur, voluptatibus, veniam facilis quia consequuntur reiciendis a quaerat neque vel corrupti.</p>
+    </div>
+    </header>
+</body>
+</html>

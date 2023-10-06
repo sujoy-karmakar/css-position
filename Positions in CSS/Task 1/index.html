@@ -1,0 +1,72 @@
+<!-- Task 1: problem statement
+Write code to position 5equal-size (50px 50px) boxes A,B,C,D, and E as follows,
+1. box A 200px form the left, and 200px form the top of the viewport.
+2. box-b -30px left, and -30px above form the center of box A,
+3. box-c -30px right, and -30px above form the center of box A,
+4. box-d -30px left, and -30px below form the center of box A,
+5. box-e -30px right, and -30px below form the center of box A,
+internal css-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+      } 
+        .box{
+            width:50px;
+            height:50px;
+            border:1px solid yellow;
+            background-color: #06f0ae;
+            position:absolute;
+            text-align:center;
+            
+        }
+    
+        .box-A{
+             position:relative;
+             left:200px;
+             top:200px;
+        }
+        .box-B{
+            left:-30px;
+            top:-30px;
+        }
+        .box-C{
+            right:-30px;
+            top:-30px;
+        }
+        .box-D{
+            left:-30px;
+            bottom:-30px;
+        }
+        .box-E{
+            right:-30px;
+            bottom:-30px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <!-- css position -->
+    <div class="container">
+        <div class="box box-A" >A
+        <div class="box box-B">B</div>
+        <div class="box box-C">C</div>
+        <div class="box box-D">D</div>
+        <div class="box box-E">E</div>
+        </div>
+    </div>
+</body>
+</html>
